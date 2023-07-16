@@ -7,6 +7,7 @@ import NotificationsNoneRoundedIcon from "@mui/icons-material/NotificationsNoneR
 const TopNav = () => {
   return (
     <div className="top_nav_container">
+      <div></div>
       <div className="icon_button_container">
         <IconButton>
           <NotificationsNoneRoundedIcon style={{ color: "white" }} />

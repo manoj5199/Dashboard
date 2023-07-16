@@ -4,7 +4,9 @@ import TopNav from "./TopNav";
 const MainLayout = () => {
   return (
     <div className="mainLayout_container">
-      <TopNav />
+      <header>
+        <TopNav />
+      </header>
     </div>
   );
 };

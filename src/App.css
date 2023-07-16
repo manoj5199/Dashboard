@@ -6,17 +6,20 @@
 .profile_image {
   border-radius: 100%;
 }
+.profile_image:active {
+  transform: scale(0.97);
+}
 
 .icon_button {
   border-radius: 100%;
-  box-shadow: 0px 0px 20px gray;
+  /* box-shadow: 0px 0px 20px #a5ffe1; */
   outline: none;
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #66ccaa;
+  background-color: #336655;
 }
 .icon_button:active {
-  box-shadow: 0px 0px 10px gray;
+  transform: scale(0.97);
 }
