@@ -1,0 +1,14 @@
+.top_nav_container {
+  width: 100%;
+  background-color: aquamarine;
+  /* height: 4rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.icon_button_container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
